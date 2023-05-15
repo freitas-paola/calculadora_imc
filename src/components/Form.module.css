@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.input {
+  max-width: 10rem;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.danger {
+  background-color: #ff6b6b;
+  padding: 0.5rem;
+}
+
+.info {
+  background-color: #94d82d;
+  padding: 0.5rem;
+}
+
+.warn {
+  background-color: #fcc419;
+  padding: 0.5rem;
+}
